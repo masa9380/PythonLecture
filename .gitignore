@@ -4,4 +4,4 @@ venv/
 
 .idea/vcs.xml
 
-*.py.orig
+*.orig
