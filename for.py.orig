@@ -8,7 +8,11 @@
 #     print(f'char:{char}')
 
 
+<<<<<<< HEAD
 # iteration：ループで回すこと, iterable：ループで回すことができるオブジェクトの事
+=======
+#iteration：ループで回すこと, iterable：ループで回すことができるオブジェクトの事
+>>>>>>> 0f98816c6eaa384f132fe07af0ffe9f79c62b219
 
 print('↓　チャレンジ1')
 # challenge1: ユーザーに好きなフルーツを入力してもらい、fruitsリストの各フルーツに対して「好き/好きじゃない」をprint()する

@@ -4,8 +4,13 @@
 # print("あなたは{}歳です".format(age))
 
 print('↓ challenge1')
+<<<<<<< HEAD
 # challenge1:ユーザーに年齢を聞き、18歳以上なら入れるカジノを作成する
 age = int(input('How old are you?'))         # int型でデータを取得するために、int()でくくってしまう
+=======
+#challenge1:ユーザーに年齢を聞き、18歳以上なら入れるカジノを作成する
+age = int(input('How old are you?'))         #int型でデータを取得するために、int()でくくってしまう
+>>>>>>> 0f98816c6eaa384f132fe07af0ffe9f79c62b219
 age_limit = 18
 game_text = '''プレイするゲームを選択してください
 1：ルーレット
@@ -13,11 +18,19 @@ game_text = '''プレイするゲームを選択してください
 3：ポーカー
 '''
 
+<<<<<<< HEAD
 if age >= age_limit:                               # ここに制限年齢の数字を直接記入するのはハードコーディング。変数にする。
     print('You can enter this casino.')
     # challenge2: カジノに入った後に聞く質問なのでここに入力する。
     game = input(game_text)
     if game == '1':                                     # もし、、、なら
+=======
+if age >= age_limit:                               #ここに制限年齢の数字を直接記入するのはハードコーディング。変数にする。
+    print('You can enter this casino.')
+    # challenge2: カジノに入った後に聞く質問なのでここに入力する。
+    game = input(game_text)
+    if game == '1':                                     #もし、、、なら
+>>>>>>> 0f98816c6eaa384f132fe07af0ffe9f79c62b219
         print('あなたはルーレットを選択しました。')
     elif game == '2':                                   # そうじゃなくてもし、、、
         print('あなたはブラックジャックを選択しました。')
