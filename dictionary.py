@@ -14,7 +14,7 @@ print(dict_sample)
 print(dict_sample['four']['inner'])
 # print(dict_sample['four']　この部分でprint(dict_sample['four']が返ってくる
 
-colors = {}     # タプルは順番を保持しない。キーと値の組み合わせを袋に入れて補完してるイメージ
+colors = {}     # ディクショナリーは順番を保持しない。キーと値の組み合わせを袋に入れて補完してるイメージ
 colors[1] = 'blue'
 colors[0] = 'red'
 colors[2] = 'green'
@@ -32,5 +32,5 @@ for x in fruits_colors:                     # キーが順番い出力される
     print(x)
 
 # .items()
-for fruit, color in fruits_colors.items():
+for fruit, color in fruits_colors.items():  # 各要素のキーと値に対してループさせる。
     print(f'{fruit} is {color}')
