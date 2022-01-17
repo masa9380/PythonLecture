@@ -1,4 +1,9 @@
 # PythonLecture（Python練習用のリポジトリ）
+2022/1/17 Mon
+ set.pyの学習完了
+ casting.pyの学習完了
+ mutable_immutable.pyの学習完了
+
 2022/1/16 Sun
  dictionary_challenge.pyの学習完了
 
